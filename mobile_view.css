@@ -1,0 +1,138 @@
+/* media screen max 712px */
+@media screen and (max-width: 712px) {
+    body{
+        overflow-x: hidden;
+    }
+    .mobile{
+        display: block;
+    }
+
+    .windows{
+        display: none;
+    }
+    .navbar{
+        display: none;
+    }
+
+    /* make the image black */
+    .navbarmobile{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: hsl(0, 0%, 100%);
+        padding: 20px 15px;
+        width: 100%;
+        color: black;
+    }
+    .navbarmobile img{
+        width: 20px;
+        height: 28px;
+        filter: brightness(0) !important;
+    }
+
+    .navbarmobile .back_button{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+    
+    .navbarmobile .navbar_right{
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+    .about_us_content .row{
+            display: block;
+    }
+
+    .subtitles{
+        font-weight: 400;
+        border-left: 2px solid #ff7e04;
+    }
+
+    .about_us_content h4{
+        text-align: center;
+        font-weight: 400;
+    }
+   
+    .about_us_content .col{
+        width: 100%;
+    }
+
+    
+    .about_us_content .content{
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 1.8;
+    }
+
+    .about_us_content .col:nth-child(2) {
+        order: -1;
+    }
+
+    .action_buttons_widget{
+        display: none;
+    }
+
+    .mv_content .row{
+        display: block;
+    }
+
+    .mv_content .col{
+        width: 100%;
+        display: block;
+    }
+
+    .mv_content .col-1{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        padding: 20px 0;
+    }
+
+    .mv_content .col h3{
+        text-align: center;
+    }
+
+    .development_process_container img{
+        height: 691px;
+        width: 125px;
+    }
+
+    .course{
+        background: url(https://dbgaming.com/image/h5/us/lishijincheng.png) no-repeat top;
+        background-size: contain;
+        margin-bottom: .28rem;
+        margin-top: .48rem;
+        position: relative;
+        text-align: center;
+        height: 696px;
+    }
+
+    .course div{
+        position: relative;
+        top: 0;
+        left: 0;
+        font-size: 12px;
+    }
+
+    .desp_list_0{
+        right: 10px;
+        top: 10px;
+    }
+
+    .desp_list_1{
+        left: 0;
+        top: 1.9rem;
+    }
+    
+    .mv_content .content{
+        width: 100%;
+    }
+
+    .titile-header{
+        font-size: 30px;
+    }
+    
+   
+}

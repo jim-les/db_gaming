@@ -7,11 +7,23 @@
     <link rel="icon" type="image/png" href="https://dbgaming.com/img/favicon_icon.png">
     <!-- css link -->
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mobile_view.css">
     <!-- import fontawesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
 </head>
 <body>
     <section class="header">
+        <nav class="navbarmobile mobile">
+            <div class="back_button">
+                <img src="https://dbgaming.com/img/h5/home/back@3x.png" alt="">
+                <span>Back to list</span>
+            </div>
+
+            <div class="navbar_right">
+                <img src="https://dbgaming.com/img/h5/home/language@3x.png" alt="">
+                <img src="https://dbgaming.com/img/h5/home/meaue@3x.png" alt="">
+            </div>
+        </nav>
         <nav class="navbar">
             <div class="web_title">
                 <img src="./assets/db_logo.png" alt="Logo">
@@ -116,10 +128,15 @@
 
     <!-- about us section -->
     <section class="aboutUs_container">
-        <h2 class="subtitles">About Us</h2>
+        <h2 class="subtitles windows">About Us</h2>
 
         <div class="about_us_content">
             <div class="row">
+                <div class="col mobile">
+                    <img class="about-image" src="./assets/db_usDetailBg.png" alt="">
+                </div>
+                <h2 class="subtitles mobile">About Us</h2>
+
                 <div class="col">
                     <h4>About DB</h4>
                     <div class="content">
@@ -134,7 +151,7 @@
 
                 </div>
 
-                <div class="col">
+                <div class="col windows">
                     <img class="about-image" src="./assets/db_usDetailBg.png" alt="">
                 </div>
             </div>
@@ -174,7 +191,8 @@
 
     <!-- development process -->
     <div class="development_process_container">
-        <h2 class="titile-header" data-v-ef1b66f8="">Development Process</h2>
+        <h2 class="titile-header windows" data-v-ef1b66f8="">Development Process</h2>
+        <h2 class="titile-header mobile" data-v-ef1b66f8="">Access Process</h2>
 
         <div class="d-flex c-line-orange" data-v-0f004c10="" data-v-ef1b66f8="">
             <span class="one" data-v-0f004c10=""></span>
@@ -184,7 +202,8 @@
 
 
         <div class="course" data-v-ef1b66f8="">
-            <img src="https://dbgaming.com/img/us/us-line.png" alt="" data-v-ef1b66f8="">
+            <img src="https://dbgaming.com/img/us/us-line.png" alt="" data-v-ef1b66f8="" class="windows">
+            <img src="https://dbgaming.com/image/h5/us/lishijincheng.png" alt="" data-v-2288cab4="" class="mobile">
             <div class="desp_list_0" data-v-ef1b66f8="">
                 <h2 data-v-ef1b66f8="">2008</h2>
                 <p data-v-ef1b66f8="">Accurately predict future development trends, quickly join the Development of Mobile games &amp; Video games.</p>
