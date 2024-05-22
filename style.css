@@ -80,12 +80,25 @@
 .dropdown_navbar_items.subline{
     width: 250px;
     left: -50%;
+    padding-left: 35px;
 }
 
 .dropdown_navbar_items li{
     padding: 10px 0;
+    position: relative;
+    list-style: none;
 }
 
+.dropdown_navbar_items li::before{
+    content: "";
+    width: 7px;
+    height: 7px;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+    left:  -20px;
+    top: 43%;
+}
 .aboutUs_container{
     padding: 40px 10px;
 }
@@ -122,12 +135,13 @@
 }
 
 .action_buttons_widget{
+    background-color: white;
     background: linear-gradient(180deg, #ec5c2a, #d94803);
     border-radius: 32.5px;
     bottom: 50%;
     padding-top: 15px;
     cursor: pointer;
-    height: 354px;
+    height: 336px;
     letter-spacing: 0;
     position: fixed;
     right: 10px;
@@ -147,4 +161,138 @@
     padding-bottom: 5.7px;
     transform: scale(.55);
     color: white;
+}
+
+.misson_vision_container{
+    background: #fffbf7;
+    padding-bottom: 69px;
+    padding-top: 63px;
+}
+
+.mv_content{
+    padding: 40px 40px;
+
+}
+
+.mv_content .row{
+    display: flex;
+    width: 100%;
+}
+
+.mv_content .col{
+    width: 50%;
+    display: flex;
+    gap: 30px;
+}
+
+.mv_content img{
+    width: 80px;
+    height: 100px;
+    
+}
+
+.mv_content .content{
+    font-size: 12px;
+    line-height: 2.0;
+    width: 347px;
+}
+
+.development_process_container{
+    margin-top: 49px;
+    padding: 20px 40px;
+}
+
+.titile-header{
+    color: #1c1021;
+    font-size: 36px;
+    font-weight: 500;
+    letter-spacing: 0;
+    margin-bottom: 11px
+}
+
+.d-flex {
+    display: flex !important;
+}
+
+.c-line-orange span[data-v-0f004c10] {
+    display: block;
+    height: 7.5px;
+    margin-right: 8px;
+    transform: skewX(-45deg);
+    width: 26px;
+}
+
+.c-line-orange .one[data-v-0f004c10], .c-line-orange .two[data-v-0f004c10] {
+    background: #ffc10f;
+}
+
+.c-line-orange .three[data-v-0f004c10] {
+    background: #ff7e04;
+}
+
+.development_process_container .course[data-v-ef1b66f8] {
+    background: url(https://dbgaming.com/img/us/us-map.png) no-repeat 50%;
+    background-size: cover;
+    height: 393px;
+    margin-bottom: 54px;
+    margin-top: 85px;
+    position: relative;
+}
+
+.development_process_container img{
+    width: 100%;
+}
+
+.desp_list_0[data-v-ef1b66f8] {
+    left: 164px;
+    top: 0;
+}
+
+.course>div[data-v-ef1b66f8] {
+    position: absolute;
+    width: 188px;
+}
+
+.course>div h2[data-v-ef1b66f8] {
+    color: #1c1021;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.6;
+    text-align: center;
+}
+
+.course>div p[data-v-ef1b66f8] {
+    color: #6a6a6a;
+    font-size: 14px;
+    text-align: left;
+}
+
+.course .desp_list_1[data-v-ef1b66f8] {
+    left: 35px;
+    top: 240px;
+}
+
+.course>div[data-v-ef1b66f8] {
+    position: absolute;
+    width: 188px;
+}
+
+.course .desp_list_2[data-v-ef1b66f8] {
+    left: 340px;
+    top: 178px;
+}
+
+.course .desp_list_3[data-v-ef1b66f8] {
+    left: 490px;
+    top: -80px;
+}
+
+.course .desp_list_4[data-v-ef1b66f8] {
+    left: 700px;
+    top: 102px;
+}
+
+.course .desp_list_5[data-v-ef1b66f8] {
+    left: 845px;
+    top: -60px;
 }
